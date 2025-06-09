@@ -28,5 +28,5 @@ This Jupyter Notebook file contains the code developed for:
 The code is written in Python and must be run in a Jupyter Notebook environment.
 Important: The dataset.xlsx file must be placed in the same directory as the Notebook file for proper execution.
 
-5. Turning Torso.pdf
+5. Report Turning Torso.pdf
 This is the final report of the project, documenting all steps of the work—starting from the initial modeling in Grasshopper through to the final optimization and conclusions.
