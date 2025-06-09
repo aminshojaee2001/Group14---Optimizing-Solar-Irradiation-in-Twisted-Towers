@@ -1,0 +1,1 @@
+# Group14---Optimizing-Solar-Irradiation-in-Twisted-Towers
