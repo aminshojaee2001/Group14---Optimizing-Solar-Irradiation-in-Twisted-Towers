@@ -1,4 +1,5 @@
 Turning Torso Optimization Project 
+
 This project explores the geometric, visual, and solar optimization of a twisting tower 
 based on the Turning Torso concept. It integrates parametric modeling, data-driven 
 analysis, and machine learning techniques. 
