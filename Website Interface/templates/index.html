@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Solar Optimization Input</title>
+</head>
+<body>
+    <h1>☀️ Solar Optimization Input</h1>
+
+    <form method="post">
+        <!-- City -->
+        <label for="city">🌍 Select City:</label>
+        <select name="city" id="city" required>
+            {% for city in cities %}
+                <option value="{{ city }}">{{ city }}</option>
+            {% endfor %}
+        </select>
+        <br><br>
+
+        <!-- Shape -->
+        <label for="shape">📐 Select Shape:</label>
+        <select name="shape" id="shape" required>
+            {% for shape in shapes %}
+                <option value="{{ shape }}">{{ shape.capitalize() }}</option>
+            {% endfor %}
+        </select>
+        <br><br>
+
+        <!-- L1 -->
+        <label for="l1">📏 L1 (16–23 meters):</label>
+        <input type="number" name="l1" id="l1" min="16" max="23" step="0.1" required>
+        <br><br>
+
+        <!-- Rotation -->
+        <label for="rotation">🔄 Rotation (10–120 degrees):</label>
+        <input type="number" name="rotation" id="rotation" min="10" max="120" step="1" required>
+        <br><br>
+
+        <!-- Floors -->
+        <label for="floors">🏢 Floors (5–54):</label>
+        <input type="number" name="floors" id="floors" min="5" max="54" step="1" required>
+        <br><br>
+
+        <button type="submit">Calculate Irradiation 🔍</button>
+    </form>
+</body>
+</html>
